@@ -44,6 +44,7 @@ public class DorisStreamLoad {
         streamLoadProp.setProperty("column_separator", "|");
         streamLoadProp.setProperty("line_delimiter", "\n");
         streamLoadProp.setProperty("format", "json");
+        streamLoadProp.setProperty("read_json_by_line", "true");
         streamLoadProp.setProperty("strict_mode", "true");
         loadBatchFirstRecord = true;
     }
